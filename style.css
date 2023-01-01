@@ -235,6 +235,7 @@ body {
 .square_dif {
   display: flex;
   flex-direction: column;
+  position: relative;
   width: 200px;
   height: 200px;
   background-color: #f1f1f1;
@@ -250,6 +251,8 @@ body {
   border-radius: 50%;
   width: 30px;
   height: 30px;
+  top: -15px;
+  left: -15px;
 }
 
 .square {
