@@ -12,6 +12,7 @@ body {
   height: 70px;
   margin: 0 auto;
   background: #4e4e4e;
+  z-index: 999;
 }
 
 .nav_container {
@@ -40,11 +41,11 @@ body {
   line-height: 21px;
   color: #ffffff;
   text-decoration: none;
+  transition-duration: 0.5s;
 }
 
 .firma:hover {
   color: #c4c4c4;
-  transition-duration: 0.5s;
 }
 
 .menu {
@@ -63,11 +64,11 @@ body {
   text-decoration: none;
   color: #ffffff;
   margin-right: 80px;
+  transition-duration: 0.5s;
 }
 
 .nav_li:hover {
   color: #c4c4c4;
-  transition-duration: 0.5s;
 }
 
 .disabled_items {
@@ -84,17 +85,15 @@ body {
   background-size: cover;
 }
 
-.shadow {
-  background-color: rgb(0, 0, 0.15);
-}
-
 .banner {
   display: flex;
   width: 100%;
   height: auto;
   margin: 0 auto;
-  padding-top: 250px;
-  padding-bottom: 250px;
+  padding-top: 240px;
+  padding-bottom: 240px;
+  background-color: rgb(0, 0, 0, 0.25);
+  z-index: 3;
 }
 
 .banner_items {
@@ -103,18 +102,19 @@ body {
   width: 100%;
 }
 
-.h1 {
+.header1 {
   display: flex;
   width: auto;
   height: 50px;
-  margin-bottom: 50px;
+  width: 50%;
+  margin-bottom: 70px;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   color: #ffffff;
 }
 
-.h2 {
+.header2 {
   width: auto;
   height: 25px;
   margin-bottom: 50px;
@@ -139,12 +139,12 @@ body {
   text-decoration: none;
   border: 3px solid #ffffff;
   background: transparent;
+  transition-duration: 1s;
 }
 
 .button:hover {
   background-color: #ffffff;
   color: black;
-  transition-duration: 1s;
 }
 
 #o_nas {
@@ -158,9 +158,8 @@ body {
   background-color: #f1f1f1;
 }
 
-.item1 {
+.header3 {
   width: 100%;
-  padding-right: 100%;
   height: 100px;
   margin-top: 70px;
   font-style: normal;
@@ -194,7 +193,8 @@ body {
   position: relative;
   border-radius: 50%;
   background-image: url(woman.jpg);
-  background-position-x: -20px;
+  background-position: center;
+  background-size: cover;
   background-size: 120%;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -230,8 +230,8 @@ body {
   position: relative;
   border-radius: 50%;
   background-image: url(man.jpg);
-  background-position-x: -20px;
-  background-size: 120%;
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
   margin-top: 78px;
@@ -262,7 +262,7 @@ body {
   background-color: #405d78;
 }
 
-.item1-1 {
+.header4 {
   margin-top: 70px;
   margin-bottom: 120px;
   font-style: normal;
@@ -290,11 +290,12 @@ body {
   text-align: center;
   margin-right: 50px;
   margin-bottom: 50px;
+  transition-duration: 0.5s;
+  box-shadow: 0px 4px 3px 0px #2d4358;
 }
 
 .box_dif:hover {
   transform: scale(1.05);
-  transition-duration: 0.5s;
 }
 
 .box_dif::after {
@@ -320,11 +321,12 @@ body {
   align-items: center;
   margin-right: 50px;
   margin-bottom: 50px;
+  transition-duration: 0.5s;
+  box-shadow: 0px 4px 3px 0px #2d4358;
 }
 
 .box:hover {
   transform: scale(1.05);
-  transition-duration: 0.5s;
 }
 
 .text_dif {
