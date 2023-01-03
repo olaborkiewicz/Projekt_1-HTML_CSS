@@ -96,15 +96,7 @@ body {
   z-index: 3;
 }
 
-.banner_items {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
 .header1 {
-  display: flex;
-  width: auto;
   height: 50px;
   width: 50%;
   margin-bottom: 70px;
@@ -115,7 +107,6 @@ body {
 }
 
 .header2 {
-  width: auto;
   height: 25px;
   margin-bottom: 50px;
   font-style: normal;
@@ -126,15 +117,11 @@ body {
 }
 
 .button {
-  display: flex;
   width: 180px;
   height: 45px;
-  justify-content: center;
-  align-items: center;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 21px;
   color: #ffffff;
   text-decoration: none;
   border: 3px solid #ffffff;
