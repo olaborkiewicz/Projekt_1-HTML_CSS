@@ -69,15 +69,14 @@ body {
 #main_section {
   height: 100vh;
   width: 100%;
-  background-image: url(image.jpg);
+  background: url(image.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .banner {
-  padding-top: 260px;
-  padding-bottom: 260px;
+  padding: 260px 0;
   background-color: rgb(0, 0, 0, 0.25);
 }
 
@@ -99,6 +98,9 @@ body {
 }
 
 .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 180px;
   height: 45px;
   font-weight: 700;
@@ -116,8 +118,7 @@ body {
 }
 
 #o_nas {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px 0;
   height: fit-content;
   background-color: #f1f1f1;
 }
@@ -159,8 +160,7 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top: 78px;
-  margin-bottom: 78px;
+  margin: 78px 0;
 }
 
 .circle:nth-of-type(odd) {
@@ -193,8 +193,7 @@ body {
 
 #oferta {
   height: fit-content;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px 0;
   background-color: #405d78;
 }
 
@@ -213,8 +212,7 @@ body {
   background-color: #f1f1f1;
   justify-content: center;
   align-items: center;
-  margin-right: 50px;
-  margin-bottom: 50px;
+  margin: 0 50px 50px 0;
   transition-duration: 0.5s;
   box-shadow: 0px 4px 3px 0px #2d4358;
 }
@@ -260,14 +258,13 @@ body {
   font-weight: 700;
   font-size: 18px;
   color: #ffffff;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin: auto 0;
 }
 
 .icons {
+  display: flex;
   color: #ffffff;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin: auto 0;
 }
 
 .fa-brands,
