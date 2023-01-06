@@ -64,6 +64,8 @@ body {
 
 .disabled_items {
   cursor: not-allowed;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 #main_section {
@@ -232,7 +234,6 @@ body {
   left: -15px;
 }
 
-.box_dif:hover,
 .box:hover {
   transform: scale(1.05);
 }
